@@ -93,7 +93,7 @@ async function getListDogsAPI() {
 
             return{
                 id: dog.id,
-                image: dog.image.url,
+                image: "https://cdn2.thedogapi.com/images/" + dog.reference_image_id + ".jpg",
                 name: dog.name,
                 weight_min: weightMin,
                 weight_max: weightMax,
