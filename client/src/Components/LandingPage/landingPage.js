@@ -12,7 +12,7 @@ export default function LandingPage() {
                         <tr>
                             <td>
                                 <span className="landing_title">
-                                    BIENVENIDO
+                                    BIENVENIDO...
                                 </span>
                             </td>
                         </tr>
